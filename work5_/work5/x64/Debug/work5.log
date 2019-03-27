@@ -1,0 +1,57 @@
+﻿  BitList.c
+  ConstValueForSm2.c
+g:\freework\visual stdio build\c\work5\work5\constvalueforsm2.c(352): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+g:\freework\visual stdio build\c\work5\work5\constvalueforsm2.c(353): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+g:\freework\visual stdio build\c\work5\work5\constvalueforsm2.c(356): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  EpointOperation.c
+  function.c
+g:\freework\visual stdio build\c\work5\work5\function.c(12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  InputInfo.c
+  main.c
+  Sm3.c
+  String.c
+  正在生成代码...
+InputInfo.obj : error LNK2001: 无法解析的外部符号 mirvar
+Sm3.obj : error LNK2001: 无法解析的外部符号 mirvar
+BitList.obj : error LNK2001: 无法解析的外部符号 mirvar
+ConstValueForSm2.obj : error LNK2001: 无法解析的外部符号 mirvar
+EpointOperation.obj : error LNK2001: 无法解析的外部符号 mirvar
+function.obj : error LNK2001: 无法解析的外部符号 mirvar
+ConstValueForSm2.obj : error LNK2019: 无法解析的外部符号 irand，该符号在函数 GetBigRandom 中被引用
+ConstValueForSm2.obj : error LNK2019: 无法解析的外部符号 copy，该符号在函数 CalculateC2 中被引用
+EpointOperation.obj : error LNK2001: 无法解析的外部符号 copy
+function.obj : error LNK2001: 无法解析的外部符号 copy
+ConstValueForSm2.obj : error LNK2019: 无法解析的外部符号 mr_compare，该符号在函数 VerifyKeys 中被引用
+ConstValueForSm2.obj : error LNK2019: 无法解析的外部符号 add，该符号在函数 KDF 中被引用
+EpointOperation.obj : error LNK2001: 无法解析的外部符号 add
+function.obj : error LNK2001: 无法解析的外部符号 add
+ConstValueForSm2.obj : error LNK2019: 无法解析的外部符号 big_to_bytes，该符号在函数 CalculateC1 中被引用
+EpointOperation.obj : error LNK2001: 无法解析的外部符号 big_to_bytes
+Sm3.obj : error LNK2001: 无法解析的外部符号 big_to_bytes
+ConstValueForSm2.obj : error LNK2019: 无法解析的外部符号 cinstr，该符号在函数 Decryption 中被引用
+Sm3.obj : error LNK2001: 无法解析的外部符号 cinstr
+ConstValueForSm2.obj : error LNK2019: 无法解析的外部符号 epoint_init，该符号在函数 CalculateG 中被引用
+EpointOperation.obj : error LNK2001: 无法解析的外部符号 epoint_init
+ConstValueForSm2.obj : error LNK2019: 无法解析的外部符号 sftbit，该符号在函数 KDF 中被引用
+ConstValueForSm2.obj : error LNK2019: 无法解析的外部符号 bigrand，该符号在函数 GetBigRandom 中被引用
+ConstValueForSm2.obj : error LNK2019: 无法解析的外部符号 epoint_set，该符号在函数 CalculateG 中被引用
+EpointOperation.obj : error LNK2001: 无法解析的外部符号 epoint_set
+EpointOperation.obj : error LNK2019: 无法解析的外部符号 subtract，该符号在函数 Sub2 中被引用
+EpointOperation.obj : error LNK2019: 无法解析的外部符号 bytes_to_big，该符号在函数 Xor2 中被引用
+EpointOperation.obj : error LNK2019: 无法解析的外部符号 multiply，该符号在函数 Multiply2 中被引用
+function.obj : error LNK2001: 无法解析的外部符号 multiply
+EpointOperation.obj : error LNK2019: 无法解析的外部符号 divide，该符号在函数 Divide2 中被引用
+function.obj : error LNK2001: 无法解析的外部符号 divide
+EpointOperation.obj : error LNK2019: 无法解析的外部符号 cotstr，该符号在函数 BigToHexChars2 中被引用
+function.obj : error LNK2001: 无法解析的外部符号 cotstr
+EpointOperation.obj : error LNK2019: 无法解析的外部符号 powmod，该符号在函数 Mod2 中被引用
+function.obj : error LNK2001: 无法解析的外部符号 powmod
+EpointOperation.obj : error LNK2019: 无法解析的外部符号 ecurve_add，该符号在函数 AddEpoint 中被引用
+EpointOperation.obj : error LNK2019: 无法解析的外部符号 ecurve_mult，该符号在函数 MultiplyEpoint 中被引用
+EpointOperation.obj : error LNK2019: 无法解析的外部符号 epoint_get，该符号在函数 PointX 中被引用
+EpointOperation.obj : error LNK2019: 无法解析的外部符号 epoint_copy，该符号在函数 AddEpoint 中被引用
+InputInfo.obj : error LNK2019: 无法解析的外部符号 mirkill，该符号在函数 DeleteGroupInfo 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 mirsys，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 ecurve_init，该符号在函数 main 中被引用
+miracl.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+G:\freework\visual stdio build\C\work5\x64\Debug\work5.exe : fatal error LNK1120: 24 个无法解析的外部命令

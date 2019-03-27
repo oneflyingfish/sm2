@@ -1,0 +1,15 @@
+﻿  BitList.c
+  ConstValueForSm2.c
+  EpointOperation.c
+  function.c
+  InputInfo.c
+  main.c
+  Sm3.c
+  String.c
+miracl.lib(mrcore.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+  正在生成代码
+  26 of 64 functions (40.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    15 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  work5.vcxproj -> G:\freework\visual stdio build\C\work5\Release\work5.exe
