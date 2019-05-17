@@ -8,5 +8,8 @@
 Miracl库编译方式或二进制下载可查看[我的CSDN博客](https://blog.csdn.net/qq_36290650/article/details/83421230)  
 <br>
 
+## SM2算法：
+[CSDN参考链接](https://blog.csdn.net/u013137970/article/details/84573200)
+
 ## 程序运行附注：  
 程序输入采用文件输入方式，默认为"input.txt"
